@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant:wght@300&display=swap');
+
+
+.aboutus-first{
+    padding: 60px 60px 130px 60px;
+}
+
+.about-us{
+    background-color: #65c1be;
+}
+
+.aboutus-second{
+    text-align: center;
+    padding: 40px 60px 30px 60px;
+    color: white;
+    font-family: 'Cormorant', serif;
+}

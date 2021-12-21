@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Lora:wght@400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@700&family=Great+Vibes&family=Lora:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant:wght@300&display=swap');
+
+.detail-container{
+    background-color: #65c1be;
+    padding: 70px 70px 70px 70px;
+    width: 100%;
+}
+
+.detail-info h2 {
+    margin-bottom: 1px;
+    font-size: 72px;
+    /* font-family: 'Great Vibes', cursive; */
+    font-family: 'Cormorant', serif;
+    /* color: #be9a67; */
+    color: white;
+    font-weight: 800;
+    width: 50%;
+}
+
+.detail-info h5{
+    color: white;
+    font-family: 'Cormorant', serif;
+}
+
+.detail-info{
+    width: 50%;
+}
+
+.detail-info h4 {
+    font-size: 20px;
+    font-weight: 600;
+    /* color: black; */
+    color: white;
+}
+
+.detail-info h3 {
+    font-size: 35px;
+    /* font-weight: 600; */
+    font-family: 'Lora', serif;
+    color: white;
+}
+
+.bottom-info {
+    margin-top: 100px;
+    text-align: center;
+    /* width: 50%; */
+}
+
+.btn {
+    font-size: 20px;
+    /* color:  black; */
+    background-color: rgb(11, 139, 135);
+    border-color: rgb(11, 139, 135);
+}
+
+.liked {
+    font-weight: bold;
+    color: #1565c0;
+  }
+
+
+
+
+
+
+
+
+

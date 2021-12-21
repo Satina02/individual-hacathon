@@ -1,0 +1,23 @@
+.shopping-cart{
+    font-size: 60px;
+    font-family: 'Great Vibes', cursive;
+    color: #be9a67;
+}
+
+.cart-footer{
+    font-size: 60px;
+    font-family: 'Great Vibes', cursive;
+    color: #be9a67;
+}
+
+.chekout-btn:hover{
+    background-color: white;
+    color: #be9a67;
+} 
+
+.chekout-btn{
+    margin: 30px 90px;
+     width: 30%;
+    background-color:#be9a67;
+     color:white
+}

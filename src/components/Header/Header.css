@@ -1,0 +1,90 @@
+header{
+    background-color: #65c1be;
+    /* margin-left: 5px; */
+    /* margin-right: 5px; */
+    display: flex;
+    padding: 35px;
+    width: 100%;
+}
+
+.header{
+    width: 10%;
+}
+
+
+.navbar-logo{
+    margin-bottom: 15px;
+    margin-top: 55px;
+    text-align: center;
+    text-decoration: none;
+    width: 10%;
+}
+
+.navbar{
+    text-decoration: none;
+    margin-right: 100px;
+    margin-left: 240px;
+    text-decoration: none;
+}
+
+.navbar a{
+    letter-spacing: 5.5px;
+}
+
+.navbar a:hover{
+    color: white;
+    border-bottom: 1px solid gray;
+}
+
+.navbar-img{
+    height: 60px;
+    margin-left: 255px;
+    margin-right: 255px;
+}
+
+.navbar__item {
+    margin: 15px;
+    text-transform: uppercase;
+    color: white;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 12px;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.navbar__item-active {
+    font-weight: 600;
+    font-size: 12px;
+    margin: 15px;
+    border-bottom: 1px solid gray;
+    color: white;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.navbar-btn{
+    width: 100%;
+    padding: 5px;
+    border-radius: 15%;
+}
+
+.nav-icons{
+    display: flex;
+    width: 15%;
+    justify-content: space-evenly;
+}
+
+.navbar-login{
+    text-decoration: none;
+    color: white;
+    border: none;
+    background-color: #65c1be;
+    height: 10px;
+}
+
+@media screen and (max-width: 320px){
+    .navbar{
+        display: none;
+        display: none;
+    }
+}

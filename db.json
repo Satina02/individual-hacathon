@@ -1,0 +1,51 @@
+{
+  "products": [
+    {
+      "title":"Noisette",
+      "price": 6.25,
+      "description": "Slow-cooked for eight hours, this intensely flavored and juicy lamb shank, infused with fresh rosemary and sage, is a house specialty. Served with smooth mashed potatoes and char-grilled, crispy asparagus, topped with a tangy golden-brown glaze for a meal hard to forget. We believe in the commitment to our community and in fostering long term relationships with local farmers and fishermen. Our menus reflect these connections, featuring local, seasonal produce and sustainably sourced seafood and meats. We are a tight-knit, fun-loving, devoted team of local cooks spreading the gospel of good times and good food in Delice.  We offer limited capacity onsite events in our restaurant kitchen space. And worry not, our krewe will travel to your destination of choice – from hotel ballrooms to private kitchens – to entertain groups of all sizes. We cook, we tell stories, we deliver informative culinary demonstrations and lectures, but most of all … we treat every event like you’re a guest at our dinner table. Join us!",
+      "image":"https://bridge294.qodeinteractive.com/wp-content/uploads/2019/12/shop-image-9-600x600.jpg",
+      "id": 1
+    },    
+    {
+        "title":"Milk chocolate",
+      "price": 6.75,
+      "ingredients": "French toast with fruit saladand maple flavoured syrup",
+      "description": "Slow-cooked for eight hours, this intensely flavored and juicy lamb shank, infused with fresh rosemary and sage, is a house specialty. Served with smooth mashed potatoes and char-grilled, crispy asparagus, topped with a tangy golden-brown glaze for a meal hard to forget. We believe in the commitment to our community and in fostering long term relationships with local farmers and fishermen. Our menus reflect these connections, featuring local, seasonal produce and sustainably sourced seafood and meats. We are a tight-knit, fun-loving, devoted team of local cooks spreading the gospel of good times and good food in Delice.  We offer limited capacity onsite events in our restaurant kitchen space. And worry not, our krewe will travel to your destination of choice – from hotel ballrooms to private kitchens – to entertain groups of all sizes. We cook, we tell stories, we deliver informative culinary demonstrations and lectures, but most of all … we treat every event like you’re a guest at our dinner table. Join us!",
+      "image":"https://bridge294.qodeinteractive.com/wp-content/uploads/2019/12/shop-image-8-600x600.jpg",
+      "id": 2
+    },
+    {
+      "title": "Lemon",
+      "price": 7.75,
+      "ingredients": "chicken breast, black pepper, garlic, onion, green chillies",
+      "description": "Slow-cooked for eight hours, this intensely flavored and juicy lamb shank, infused with fresh rosemary and sage, is a house specialty. Served with smooth mashed potatoes and char-grilled, crispy asparagus, topped with a tangy golden-brown glaze for a meal hard to forget. We believe in the commitment to our community and in fostering long term relationships with local farmers and fishermen. Our menus reflect these connections, featuring local, seasonal produce and sustainably sourced seafood and meats. We are a tight-knit, fun-loving, devoted team of local cooks spreading the gospel of good times and good food in Delice.  We offer limited capacity onsite events in our restaurant kitchen space. And worry not, our krewe will travel to your destination of choice – from hotel ballrooms to private kitchens – to entertain groups of all sizes. We cook, we tell stories, we deliver informative culinary demonstrations and lectures, but most of all … we treat every event like you’re a guest at our dinner table. Join us!",
+      "image": "https://bridge294.qodeinteractive.com/wp-content/uploads/2019/12/shop-image-7-600x600.jpg",
+      "id": 3
+    },
+    {
+      "title": "Irish coffee",
+      "price": 7.25,
+      "ingredients": "warm crêpe with two free range eggs, shaved Gruyère cheese",
+      "description": "Slow-cooked for eight hours, this intensely flavored and juicy lamb shank, infused with fresh rosemary and sage, is a house specialty. Served with smooth mashed potatoes and char-grilled, crispy asparagus, topped with a tangy golden-brown glaze for a meal hard to forget. We believe in the commitment to our community and in fostering long term relationships with local farmers and fishermen. Our menus reflect these connections, featuring local, seasonal produce and sustainably sourced seafood and meats. We are a tight-knit, fun-loving, devoted team of local cooks spreading the gospel of good times and good food in Delice.  We offer limited capacity onsite events in our restaurant kitchen space. And worry not, our krewe will travel to your destination of choice – from hotel ballrooms to private kitchens – to entertain groups of all sizes. We cook, we tell stories, we deliver informative culinary demonstrations and lectures, but most of all … we treat every event like you’re a guest at our dinner table. Join us!",
+      "image": "https://bridge294.qodeinteractive.com/wp-content/uploads/2019/12/shop-image-6-600x600.jpg",
+      "id": 4
+    },
+    {
+      "title": "White chocolate",
+      "price": 8,
+      "ingredients": "two free range eggs, bacon, tomato, mushrooms and toast",
+      "description": "Slow-cooked for eight hours, this intensely flavored and juicy lamb shank, infused with fresh rosemary and sage, is a house specialty. Served with smooth mashed potatoes and char-grilled, crispy asparagus, topped with a tangy golden-brown glaze for a meal hard to forget. We believe in the commitment to our community and in fostering long term relationships with local farmers and fishermen. Our menus reflect these connections, featuring local, seasonal produce and sustainably sourced seafood and meats. We are a tight-knit, fun-loving, devoted team of local cooks spreading the gospel of good times and good food in Delice.  We offer limited capacity onsite events in our restaurant kitchen space. And worry not, our krewe will travel to your destination of choice – from hotel ballrooms to private kitchens – to entertain groups of all sizes. We cook, we tell stories, we deliver informative culinary demonstrations and lectures, but most of all … we treat every event like you’re a guest at our dinner table. Join us!",
+      "image": "https://bridge294.qodeinteractive.com/wp-content/uploads/2019/12/shop-image-5-600x600.jpg",
+      "id": 5
+    },
+    {
+      "title": "Straccciatella",
+      "price": 7.5,
+      "ingredients": "vegetarian sausage, field mushroom, tomato, avocado, baby spinach",
+      "description": "Slow-cooked for eight hours, this intensely flavored and juicy lamb shank, infused with fresh rosemary and sage, is a house specialty. Served with smooth mashed potatoes and char-grilled, crispy asparagus, topped with a tangy golden-brown glaze for a meal hard to forget. We believe in the commitment to our community and in fostering long term relationships with local farmers and fishermen. Our menus reflect these connections, featuring local, seasonal produce and sustainably sourced seafood and meats. We are a tight-knit, fun-loving, devoted team of local cooks spreading the gospel of good times and good food in Delice.  We offer limited capacity onsite events in our restaurant kitchen space. And worry not, our krewe will travel to your destination of choice – from hotel ballrooms to private kitchens – to entertain groups of all sizes. We cook, we tell stories, we deliver informative culinary demonstrations and lectures, but most of all … we treat every event like you’re a guest at our dinner table. Join us!",
+      "image": "https://bridge294.qodeinteractive.com/wp-content/uploads/2019/12/shop-image-4-600x600.jpg",
+      "id": 6
+    }
+  ]
+}

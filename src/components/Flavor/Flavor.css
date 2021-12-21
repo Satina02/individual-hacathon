@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant:wght@300&display=swap');
+
+.flavors{
+    background-color: #65c1be;
+}
+
+.flavors-first{
+    padding: 50px 90px 50px 90px;
+}
+
+.flavors-second{
+    padding: 50px 90px 50px 90px;
+}
+
+.all-flavors-first{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+.flavors-title{
+    color:white;
+    font-family: 'Cormorant', serif;
+    font-size: 22px;
+}
+
+.flavors-main-title{
+    color:white;
+    font-family: 'Cormorant', serif;
+    font-size: 60px;
+    font-weight: 700;
+}

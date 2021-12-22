@@ -93,6 +93,56 @@ const HomePage = () => {
                     </div>
                 </div>
             </section>
+            <section>
+                <div className="homepage-fourth">
+                    <div className="fourth-inner-left">
+                        <div>
+                            <div style={{fontSize:"17px"}}>GET IN TOUCH</div>
+                            <div style={{fontSize:"60px", fontWeight:"800", marginBottom:"30px"}}>Shops</div>
+                        </div>
+                        <div style={{ marginBottom:"30px"}}>
+                            <div style={{fontSize:"25px", fontWeight:"800"}}>Mulberry</div>
+                            <div>3094 Mulberry Avenue</div>
+                            <div>Mon – Fri: 9:00 am – 8:00 pm</div>
+                            <div>Sat – Sun: 9:00 am – 10 pm</div>
+                        </div>
+                        <div>
+                            <div style={{fontSize:"25px", fontWeight:"800"}}>Kincheloe</div>
+                            <div>94203 Kincheloe Road</div>
+                            <div>Mon – Fri: 9:00 am – 8:00 pm</div>
+                            <div>Sat – Sun: 9:00 am – 10 pm</div>
+                        </div>
+                    </div>
+                    <div className="fourth-inner-right">
+                        <img style={{width:"90%"}} src="https://bridge294.qodeinteractive.com/wp-content/uploads/2019/12/home-image-4-1024x610.jpg" alt="" />
+                    </div>
+                </div>
+            </section>
+            <section className="homepage-fifth">
+                <img style={{width:"300px", marginBottom:"40px"}} src="https://bridge294.qodeinteractive.com/wp-content/uploads/2019/12/instagram-7-1.jpg" alt="" />
+                <img style={{width:"300px", marginBottom:"40px"}} src="https://bridge294.qodeinteractive.com/wp-content/uploads/2019/12/instagram-6-1.jpg" alt="" />
+                <img style={{width:"300px", marginBottom:"40px"}} src="https://bridge294.qodeinteractive.com/wp-content/uploads/2019/12/instagram-4-1.jpg" alt="" />
+                 <img style={{width:"300px", marginBottom:"40px"}} src="https://bridge294.qodeinteractive.com/wp-content/uploads/2019/12/instagram-3-1.jpg" alt="" />
+                 <img style={{width:"300px", marginBottom:"40px"}} src="https://bridge294.qodeinteractive.com/wp-content/uploads/2019/12/instagram-2-1.jpg" alt="" />
+                <img style={{width:"300px", marginBottom:"40px"}} src="https://bridge294.qodeinteractive.com/wp-content/uploads/2019/12/instagram-1-1.jpg" alt="" /> 
+            </section>
+            <section className='feedback'>
+            <div style={{display:"flex", width:"100%"}}>
+                <div className='feedback-left'>
+                    <div>JOIN OUR NEWSLETTER</div>
+                    <div style={{fontSize:"80px", fontWeight:"700"}}>Contact us</div>
+                    <div>3094 10 Mulberry Avenue, 503-532-9565, 509-587-1034</div>
+                    <div>Mon – Fri: 9:00 am – 8:00 pm,Sat – Sun: 9:00 am – 10</div>
+                    <div>pm shop@bridgegelateria.com</div>
+                </div>
+                <div className='feedback-rigth'>
+                    <input style={{height:"113px", color:"white"}} className='contact-inputs' type="text" placeholder='Your Message'/>
+                    <input className='contact-inputs' type="text" placeholder='Your Name'/>
+                    <input className='contact-inputs' type="text" placeholder='Your Email'/>
+                    <button className='feedback-btn'>Submit</button>
+                </div>
+            </div>
+        </section>
             
         </div>
     );

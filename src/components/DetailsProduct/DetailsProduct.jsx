@@ -9,7 +9,7 @@ import { LoadingOutlined, HeartFilled } from "@ant-design/icons";
 import "./DetailsProduct.css";
 
 
-const { TabPane } = Tabs;
+const { TabPane } = Tabs; 
 
 function callback(key) {
   console.log(key);
@@ -95,8 +95,10 @@ const DetailsProduct = () => {
                 >
                   MY FAVORITE
                 </Button>
-                <span>SKU: 009</span>
-                <span>Category: Uncategorized</span>
+                <br />
+                <span style={{color:"white"}}>SKU: 009</span>
+                <br />
+                <span style={{color:"white"}}>Category: Uncategorized</span>
               </div>
             </div>
           </div>

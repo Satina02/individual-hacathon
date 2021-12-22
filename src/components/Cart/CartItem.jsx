@@ -44,6 +44,7 @@ const CartItem = ({item}) => {
         </>} 
       />
     </List.Item>
+    
         </div>
     );
 };

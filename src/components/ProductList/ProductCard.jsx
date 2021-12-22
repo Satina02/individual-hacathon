@@ -1,12 +1,7 @@
 import React, { useContext, useEffect, useState } from 'react';
-import {Card} from 'antd';
 import { Link } from 'react-router-dom';
-import {
-    ShoppingCartOutlined,
-    EllipsisOutlined,
-    HeartOutlined,
-  } from "@ant-design/icons";
-  import './ProductCard.css';
+
+import './ProductCard.css';
 import { cartContext } from '../../contexts/cartContext';
 import { favoriteContext } from '../../contexts/favoriteContext';
 
@@ -23,46 +18,18 @@ const ProductCard = ({item}) => {
     },[])
     return (
         <div className='productlist-cards'>
-            <Card
-            hoverable
-            // key={item.id}
-            className='productlist-csrd'
-            style={{ width: "250px", margin: "10px" }}
-            cover={<img style={{width:"250px", height:"200px"}} alt="example" src={item.image} />}
-            actions={[
-
-              
-              <HeartOutlined  style={{ color: checkInFav? "red" : "black", fontSize: "25px" }}
-                    onClick={() => (
-                      addProductToFav(item),
-                      setCheckInFav(checkItemInFav(item.id))
-                    )} />,
-              <ShoppingCartOutlined
-                style={{ color: checkInCart ? "#be9a67" : "black", fontSize: "25px" }}
-                 onClick={() => ( 
+          <div className='cards' style={{width:"250px", textAlign:"center", color:"white"}}>
+          <Link to={`/products/${item.id}`}><img src={item.image} style={{width:"100%"}} alt="" /></Link>
+            <div style={{fontSize:"28px"}}>{item.title}</div>
+            <div style={{fontSize:"24px"}}>{"$" + item.price}</div>
+            <div className='more-icons'>
+              <img style={{width:"30px"}} src="https://cdn-icons.flaticon.com/png/128/2273/premium/2273864.png?token=exp=1640108734~hmac=91c3d9f77d0d9e7433ad27f548012d4e" alt="" />
+              <img  onClick={() => ( 
                      addProductToCart(item),
-                     setCheckInCart(checkItemInCart(item.id))
-                 )}
-
-              />,
-              <Link to={`/products/${item.id}`}>
-                <EllipsisOutlined
-                  style={{ color: "black", fontSize: "25px" }}
-                  key="ellipsis"
-                />
-              </Link>,
-            ]}
-          >
-            <Card.Meta
-              title={<h3 className='productCard-title'>{item.title}</h3>}
-              description={
-                <>
-                  {/* <h3>{item.ingredients}</h3> */}
-                  <h2 className='productCard-price' style={{color:"#be9a67"}}>{"$" + item.price}</h2>
-                </>
-              }
-            />
-          </Card>
+                     setCheckInCart(checkItemInCart(item.id)))}  style={{width:"30px"}} src="https://cdn-icons-png.flaticon.com/512/2332/2332013.png" alt="" />
+              <Link to={`/products/${item.id}`}><img style={{width:"30px"}} src="https://cdn-icons.flaticon.com/png/512/4152/premium/4152281.png?token=exp=1640108993~hmac=cd8109109772f4be6c879f7a6b29cfc4" alt="" /></Link>
+            </div>
+          </div>
         </div>
     );
 };

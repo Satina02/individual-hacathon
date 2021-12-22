@@ -5,6 +5,7 @@ import { cartContext } from "../../contexts/cartContext";
 import './ProductCard.css'
 import { Button } from "antd";
 import {Link} from 'react-router-dom'
+import {Table} from 'react-bootstrap';
 
 const ProductCart = () => {
     const { cart, getCart } = useContext(cartContext);
@@ -15,9 +16,7 @@ const ProductCart = () => {
         <div>
             <section className='cart-backparalax'>
                 <div style={{marginLeft:"50px"}}>
-                <h1 className="shopping-cart" style={{fontSize:"32px", fontWeight:"700", marginLeft:"50px", 
-                           borderBottom:"1px gray solid", width:"1000px"}}>
-                    Shopping Cart</h1>
+                <h1 className="shopping-cart">Cart</h1>
                 </div>
                 <List style={{marginLeft:"70px", marginRight:"170px"}}
                     itemLayout="vertical"
@@ -38,8 +37,40 @@ const ProductCart = () => {
                         </div>
                 }
                     renderItem={(item) => <CartItem item={item}/>} 
-                />
+                /> 
             
+            </section>
+            <section className="cart-container">
+            {/* <Table striped bordered hover>
+  <thead>
+    <tr>
+      <th>Remove</th>
+      <th>PRODUCT</th>
+      <th>PRICE</th>
+      <th>QUANTITY</th>
+      <th>SUBTOTAL</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>1</td>
+      <td>Mark</td>
+      <td>Otto</td>
+      <td>@mdo</td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td>Jacob</td>
+      <td>Thornton</td>
+      <td>@fat</td>
+    </tr>
+    <tr>
+      <td>3</td>
+      <td>Larry the Bird</td>
+      <td>@twitter</td>
+    </tr>
+  </tbody>
+</Table> */}
             </section>
         </div>
     );

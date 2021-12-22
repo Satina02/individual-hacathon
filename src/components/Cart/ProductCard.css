@@ -1,7 +1,12 @@
+
+.cart-backparalax{
+    background-color: #65c1be;
+}
+
 .shopping-cart{
     font-size: 60px;
     font-family: 'Great Vibes', cursive;
-    color: #be9a67;
+    color: white;
 }
 
 .cart-footer{

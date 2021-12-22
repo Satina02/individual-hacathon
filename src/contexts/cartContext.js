@@ -7,14 +7,14 @@ export const cartContext = React.createContext()
 
 
 const INIT_STATE = {
-    cart: {},
+    carter: {},
     cartLength:0,
   };
   
   const reducer = (state = INIT_STATE, action) => {
     switch (action.type) {
       case CASE_GET_CART:
-        return { ...state, cart: action.payload, 
+        return { ...state, carter: action.payload, 
           cartLength: action.payload.products.length };
       default:
         return state;
@@ -25,10 +25,10 @@ const INIT_STATE = {
     const [state, dispatch] = useReducer(reducer, INIT_STATE);
 
 
-    function addProductToCart(product) {
-      let cart = JSON.parse(localStorage.getItem("cart"));
-      if (!cart) {
-        cart = {
+    function addProductToCart(product) { 
+      let carter = JSON.parse(localStorage.getItem("carter"));
+      if (!carter) {
+        carter = {
           products: [],
           totalPrice: 0,
         };
@@ -36,55 +36,56 @@ const INIT_STATE = {
       let newProduct = {
         item: product,
         count: 1,
-        subPrice: product.price,
-      };
-      let filteredCart = cart.products.filter(
+        // subPrice: product.price,
+      };  
+      console.log(product)
+      let filteredCart = carter.products.filter(
         (item) => item.item.id === product.id
       );
       if (filteredCart.length > 0) {
-        cart.products = cart.products.filter((item) => item.item.id !== product.id);
+        carter.products = carter.products.filter((item) => item.item.id !== product.id);
       } else {
-        cart.products.push(newProduct);
+        carter.products.push(newProduct);
       };
-      cart.totalPrice = calcTotalPrice(cart.products);
-      localStorage.setItem('cart', JSON.stringify(cart))
+      carter.totalPrice = calcTotalPrice(carter.products);
+      localStorage.setItem('cart', JSON.stringify(carter))
       getCart()
     }
     function getCart (){
-      let cart = JSON.parse(localStorage.getItem("cart"));
-      if (!cart) {
-        cart = {
+      let carter = JSON.parse(localStorage.getItem("carter"));
+      if (!carter) {
+        carter = {
           products: [],
           totalPrice: 0,
         };
       }
-      cart.totalPrice = calcTotalPrice(cart.products)
+      carter.totalPrice = calcTotalPrice(carter.products)
       dispatch({
         type: CASE_GET_CART,
-        payload: cart
+        payload: carter
       })
     }
     function deleteFromCart(id){
-        let cart = JSON.parse(localStorage.getItem("cart"));
-      if (!cart) {
-        cart = {
+        let carter = JSON.parse(localStorage.getItem("carter"));
+      if (!carter) {
+        carter = {
           products: [],
           totalPrice: 0,
         };
-      }
-      cart.products = cart.products.filter((item) => item.item.id !== id)
-      localStorage.setItem('cart', JSON.stringify(cart))
+      } 
+      carter.products = carter.products.filter((item) => item.item.id !== id)
+      localStorage.setItem('cart', JSON.stringify(carter))
       getCart()
     }
     function checkItemInCart(id){
-      let cart = JSON.parse(localStorage.getItem("cart"));
-      if (!cart) {
-        cart = {
+      let carter = JSON.parse(localStorage.getItem("carter"));
+      if (!carter) {
+        carter = {
           products: [],
           totalPrice: 0,
         };
       }
-      let filteredCart = cart.products.filter(
+      let filteredCart = carter.products.filter(
         (item) => item.item.id === id
       );
       return filteredCart.length > 0 ? true : false;
@@ -93,22 +94,22 @@ const INIT_STATE = {
       if(count <= 0){
         count = 1
       }
-      let cart = JSON.parse(localStorage.getItem('cart'))
-      cart.products = cart.products.map((item) => {
+      let carter = JSON.parse(localStorage.getItem('carter'))
+      carter.products = carter.products.map((item) => {
         if(item.item.id === id){
           item.count = count
           item.subPrice = calcSubPrice(item )
         }
         return item
       })
-      cart.totalPrice = calcTotalPrice(cart.products)
-      localStorage.setItem('cart', JSON.stringify(cart))
+      carter.totalPrice = calcTotalPrice(carter.products)
+      localStorage.setItem('carter', JSON.stringify(carter))
       getCart()
     }
     return (
       <cartContext.Provider
         value={{
-          cart: state.cart,
+          carter: state.carter,
           cartLength: state.cartLength,
           addProductToCart,
           getCart,

@@ -53,8 +53,8 @@ const ProductList = () => {
   }, [search, page, limit, price]);
   console.log(products);
   return (
-    <div style={{ marginTop: "50px" }}>
-      <div className="container" style={{ marginTop: "20px" }}>
+    <div className="product-list-section">
+      <div className="container">
         <div
           className="products-search"
           >

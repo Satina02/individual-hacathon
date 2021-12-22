@@ -1,7 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant:wght@300&display=swap');
+
 .productCard-title{
     font-size: 30px;
-    font-family: 'Great Vibes', cursive;
-    color: #be9a67;
+    /* font-family: 'Great Vibes', cursive; */
+    font-family: 'Cormorant', serif;
+    color: white;
+}
+
+.cards{
+    font-family: 'Cormorant', serif;
+    border: 1px solid rgb(11, 139, 135);
+}
+
+.more-icons{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 5px;
+    /* border: 1px solid rgb(11, 139, 135); */
+    cursor: pointer;
 }
 
 @media screen and (max-width: 320px){
